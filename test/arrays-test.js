@@ -22,6 +22,7 @@ describe('arrays', () => {
     })
 
     it('does not alter the original array', () => {
+      
       const array = [1]
 
       addElementToBeginningOfArray(array, 'foo')
